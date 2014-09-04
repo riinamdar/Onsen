@@ -1,4 +1,1 @@
-myOnsenUIApp
-============
-
-myOnsenUIApp
+This is test scripts
