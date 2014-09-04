@@ -1,4 +1,4 @@
 (function(){
 	'use strict';
-	angular.module('myApp', ['onsen.directives']);
+	angular.module('Shalimar Dry Cleaners', ['onsen.directives']);
 })();
