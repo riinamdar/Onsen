@@ -117,14 +117,16 @@ and open the template in the editor.
     <body>
         <form class="form-container">
             <div class="form-title"><h2>Request</h2></div>
-            <div class="form-title">Name</div>
-            <input class="form-field" type="text" name="firstName" /><br />
-            <div class="form-title">Email</div>
-            <input class="form-field" type="text" name="email" /><br />
-             <div class="form-title">Phone</div>
-            <input class="form-field" type="text" name="phone" /><br />
-            <div class="form-title">Adresss</div>
- 	    <textarea rows="4" cols="50"  class="form-field" name="address"></textarea>
+            <div class="form-title">Name*</div>
+            <input class="form-field" type="text" name="firstName"  required/><br />
+            <div class="form-title">Email*</div>
+            <input class="form-field" type="text" name="email" required /><br />
+             <div class="form-title">Phone*</div>
+            <input class="form-field" type="text" name="phone" required/><br />
+             <div class="form-title">Subject*</div>
+            <input class="form-field" type="text" name="subject" required /><br />
+            <div class="form-title">Adresss*</div>
+ 	    <textarea rows="4" cols="50"  class="form-field" name="address" required></textarea>
             <div class="submit-container">
                 <input class="submit-button" type="submit" value="Submit" />
             </div>
